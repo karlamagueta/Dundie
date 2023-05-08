@@ -1,0 +1,22 @@
+/* tipografia  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face {
+    font-family: 'roboto';
+    src: url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+}
+
+@font-face {
+    font-family: 'libre';
+    src: url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@600&display=swap');
+}
+
+.roboto {
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+}
+
+.libre {
+    font-family: 'libre' Arial, Helvetica, sans-serif;
+}
+
+

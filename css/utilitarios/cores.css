@@ -1,0 +1,71 @@
+:root {
+    --w: #fff;
+    --c1: #FAFAFA;
+    --c2: #E7E7E7;
+    --c3: #D6D6D6;
+    --c4: #CECECE;
+    --c5: #B0B0B0;
+    --c6: #8D8D8D;
+    --c7: #6F6F6F;
+    --c8: #505050;
+    --c9: #393939;
+    --c10: #282828;
+    --b: #000;
+}
+
+.w {
+    color: var(--w);
+}
+
+.b {
+    color: var(--b);
+}
+
+.c1 {
+    color: var(--c1);
+}
+
+.c2 {
+    color: var(--c2);
+}
+
+
+.c3 {
+    color: var(--c3);
+}
+
+.c4 {
+    color: var(--c4);
+}
+
+.c5 {
+    color: var(--c5);
+}
+
+.c6  {
+    color: var(--c6);
+}
+
+.c7 {
+    color: var(--c7);
+}
+
+.c8 {
+    color: var(--c8);
+}
+
+.c9 {
+    color: var(--c9);
+}
+
+.c10 {
+    color: var(--c10);
+}
+
+.gradient {
+    background: linear-gradient(91.72deg, #DC8BE3 8.08%, #02CAE6 104.4%, #7ED0DB 104.41%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}

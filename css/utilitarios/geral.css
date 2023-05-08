@@ -1,0 +1,12 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+
+.container--1200 {
+    margin: 0 auto;
+    max-width: 1200px;
+}

@@ -1,0 +1,79 @@
+.menu--bg {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+    background-color: var(--gradient);
+}
+
+.menu {
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.menu--logo img{
+    height: 30px;
+}
+
+.menu--direita {
+    display: flex;
+    align-items: center;
+}
+
+.menu--busca {
+    position: relative;
+}
+
+.menu--busca img {
+    height: 20px;
+}
+
+.menu--busca input {
+    border: transparent;
+}
+
+.menu--busca fieldset {
+    height: 20px;
+    color: var(--c3);
+    border-radius: 5px;
+    border: 1px solid var(--c7);
+}
+
+.menu--busca fieldset:focus {
+    color: var(--c8);
+}
+
+.menu--busca img {
+    content: '';
+    position: relative;
+    top: 6px;
+    left: -25px;
+}
+
+.menu--usuario {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.menu--usuario h2 {
+    grid-column: 1;
+    font-size: 1.25rem;
+}
+
+.menu-usuario p {
+    grid-column: 1;
+    grid-row: 2;
+    font-size: 0.75rem;
+}
+
+.menu--usuario--img {
+    grid-column: 2;
+}
+.menu--usuario img {
+    height: 3.75rem;
+    border-radius: 50%;
+
+}
