@@ -1,9 +1,8 @@
-/* tipografia  */
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 
 @font-face {
     font-family: 'roboto';
-    src: url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    src: local('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 }
 
 @font-face {
