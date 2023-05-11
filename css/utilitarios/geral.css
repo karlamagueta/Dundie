@@ -7,6 +7,9 @@
     text-decoration: none;
 }
 
+body {
+    position: relative;
+}
 
 .container--1200 {
     margin: 0 auto;
